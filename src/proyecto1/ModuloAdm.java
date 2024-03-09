@@ -91,7 +91,7 @@ elimavent2.addActionListener(this);
 paciente.add(elimavent2);
 
 //Boton Actualizacion
-ventasal2= new JButton("Actualice");
+ventasal2= new JButton("Actualizar");
 ventasal2.setBounds(1000, 25, 180, 50);
 ventasal2.setBackground(new Color (173, 186, 255));
 ventasal2.setFont(new Font("Georgia",Font.BOLD, 15));
