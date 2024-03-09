@@ -141,6 +141,8 @@ public class Registro extends JFrame implements ActionListener {
             String telefonos= telefono.getText();
             int edadD= Integer.parseInt(edad1);
             
+            JOptionPane.showMessageDialog(this, "Su código es: "+Proyecto1.codigo1, "Registro correcto", 0);
+            
             Proyecto1.agregarDoctor(edadD, nombre24, apellido1, edad1, edadD, contra1, especial, telefonos);
             Proyecto1.codigo1++;
             this.dispose();

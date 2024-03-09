@@ -132,7 +132,7 @@ public class Login extends JFrame implements ActionListener{
            System.out.println("Contraseña:"+contra);
            
            //recordar poner usuario y contraseña del pdf
-           if(nombre.equals("1") && contra.equals("1")){
+           if(nombre.equals("admin") && contra.equals("proyecto1IPC1")){
                 ModuloAdm ventana2Admi = new ModuloAdm();
                this.dispose();
                }
